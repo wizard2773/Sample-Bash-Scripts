@@ -11,7 +11,7 @@ echo ${b[@]: -1}		#print last element in array data
 # Associatve array not in bash 3 or below
 
 declare -A myarray
-myarray[color]=blue
+//myarray[color]=blue
 myarray["office building"]="HQ west"
 
 echo ${myarray["office building"]} is ${myarray[color]}
